@@ -1,0 +1,21 @@
+$color-fondo: #a8cf45;
+.triangulo_fijo{
+	transform: translateX(0);
+	&:before{
+		content: "";
+		border-style: solid;
+		border-width: 0px 15px 15px 15px;
+		border-color: transparent transparent $color-fondo transparent;
+		position: absolute;
+		top: 0px;
+		left:50%;
+		margin-left: -15px;
+		transition-duration:0.3s 
+	}
+	&:hover{
+		transform: translateY(15px);
+		&:before{
+			top:-13px;
+		}
+	}
+}
