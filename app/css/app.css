@@ -500,5 +500,22 @@ div {
   .borde_interno:hover:before {
     opacity: 1; }
 
+.expansion_borde {
+  position: relative; }
+  .expansion_borde:before {
+    content: "";
+    position: absolute;
+    border: 4px solid black;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transition-duration: 0.3s; }
+  .expansion_borde:hover:before {
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px; }
+
 body {
   background-color: #eee; }
