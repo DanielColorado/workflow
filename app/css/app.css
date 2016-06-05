@@ -447,5 +447,25 @@ div {
   .sombra_difuminada:hover {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
 
+.sombra_radial {
+  position: relative;
+  box-shadow: 0 0 1px black; }
+  .sombra_radial:before, .sombra_radial:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0px;
+    transition-duration: 0.3s;
+    opacity: 0; }
+  .sombra_radial:before {
+    bottom: 100%;
+    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%); }
+  .sombra_radial:after {
+    top: 100%;
+    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%); }
+  .sombra_radial:hover:before, .sombra_radial:hover:after {
+    opacity: 1; }
+
 body {
   background-color: #eee; }
