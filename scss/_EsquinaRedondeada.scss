@@ -1,0 +1,6 @@
+.esquina_redondeada{
+	transition-duration:0.3s;
+	&:hover{
+		border-radius:20px;
+	}
+}

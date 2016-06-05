@@ -536,5 +536,10 @@ div {
     right: -8px;
     opacity: 1; }
 
+.esquina_redondeada {
+  transition-duration: 0.3s; }
+  .esquina_redondeada:hover {
+    border-radius: 20px; }
+
 body {
   background-color: #eee; }
