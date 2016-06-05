@@ -1,0 +1,7 @@
+.sombra_difuminada{
+	box-shadow: 0 0 1px rgba(0,0,0,1);
+	transition-duration:0.3s;
+	&:hover{
+		box-shadow: 0 0 8px rgba(0,0,0,0.6);
+	}
+}

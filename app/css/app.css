@@ -441,5 +441,11 @@ div {
       transform: translateY(5px);
       opacity: 1; }
 
+.sombra_difuminada {
+  box-shadow: 0 0 1px black;
+  transition-duration: 0.3s; }
+  .sombra_difuminada:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
+
 body {
   background-color: #eee; }
