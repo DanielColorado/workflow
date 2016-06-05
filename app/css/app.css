@@ -517,5 +517,24 @@ div {
     left: -8px;
     right: -8px; }
 
+.expansion_borde2 {
+  position: relative; }
+  .expansion_borde2:before {
+    content: "";
+    position: absolute;
+    border: 4px solid black;
+    top: -16px;
+    bottom: -16px;
+    left: -16px;
+    right: -16px;
+    transition-duration: 0.3s;
+    opacity: 0; }
+  .expansion_borde2:hover:before {
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    opacity: 1; }
+
 body {
   background-color: #eee; }
