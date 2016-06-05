@@ -1,0 +1,7 @@
+.resalte_borde{
+	box-shadow: inset 0 0 0 4px #ddd;
+	transition-duration: 0.3s;
+	&:hover{
+		box-shadow: inset 0 0 0 4px #555;
+	}
+}
