@@ -1,0 +1,7 @@
+.iluminacion{
+	border: 4px solid lightgray;
+	transition-duration:0.3s;
+	&:hover{
+		background-color: white;
+	}
+}

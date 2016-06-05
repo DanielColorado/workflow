@@ -473,5 +473,11 @@ div {
   .sombra_externa:hover {
     box-shadow: 2px 3px 3px black; }
 
+.iluminacion {
+  border: 4px solid lightgray;
+  transition-duration: 0.3s; }
+  .iluminacion:hover {
+    background-color: white; }
+
 body {
   background-color: #eee; }
