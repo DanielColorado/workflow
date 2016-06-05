@@ -391,7 +391,8 @@ div {
     left: -13px; }
 
 .triangulo_fijo {
-  transform: translateX(0); }
+  transform: translateX(0);
+  transition-duration: 0.3s; }
   .triangulo_fijo:before {
     content: "";
     border-style: solid;
@@ -406,6 +407,21 @@ div {
     transform: translateY(15px); }
     .triangulo_fijo:hover:before {
       top: -13px; }
+
+.esquina_pagina {
+  transform: translateX(0); }
+  .esquina_pagina:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    background: linear-gradient(45deg, #eee 45%, #aaa 50%, #ccc 60%, white);
+    transition-duration: 0.3s; }
+  .esquina_pagina:hover:before {
+    width: 35px;
+    height: 35px; }
 
 body {
   background-color: #eee; }

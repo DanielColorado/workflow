@@ -1,6 +1,7 @@
 $color-fondo: #a8cf45;
 .triangulo_fijo{
 	transform: translateX(0);
+	transition-duration:0.3s;
 	&:before{
 		content: "";
 		border-style: solid;
@@ -10,7 +11,7 @@ $color-fondo: #a8cf45;
 		top: 0px;
 		left:50%;
 		margin-left: -15px;
-		transition-duration:0.3s 
+		transition-duration:0.3s;
 	}
 	&:hover{
 		transform: translateY(15px);

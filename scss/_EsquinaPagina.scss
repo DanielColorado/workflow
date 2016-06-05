@@ -1,0 +1,20 @@
+$color-fondo: #a8cf45;
+.esquina_pagina{
+	transform:translateX(0);
+	&:before{
+		content:"";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 0;
+		background: linear-gradient(45deg, #eee 45%, #aaa 50%, #ccc 60%,white);
+		transition-duration:0.3s;
+	}
+	&:hover{
+		&:before{
+			width: 35px;
+			height: 35px;
+		}
+	}
+}
