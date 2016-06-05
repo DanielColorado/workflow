@@ -1,0 +1,7 @@
+.sombra_externa{
+	box-shadow: 0 0 1px black;
+	transition-duration:0.3s;
+	&:hover{
+		box-shadow: 2px 3px 3px black;
+	}
+}
