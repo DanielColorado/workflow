@@ -541,5 +541,35 @@ div {
   .esquina_redondeada:hover {
     border-radius: 20px; }
 
+#borde_menu {
+  background-color: #6d0a43;
+  font-family: 'Arial'; }
+
+nav {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: right; }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none; }
+    nav ul li {
+      display: inline-block;
+      margin: 7px -2px; }
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        padding: 5px 10px; }
+      nav ul li:nth-of-type(1) a:focus {
+        border-bottom: 3px solid orange; }
+      nav ul li:nth-of-type(2) a:focus {
+        border-bottom: 3px solid #0090FF; }
+      nav ul li:nth-of-type(3) a:focus {
+        border-bottom: 3px solid #A800FF; }
+
 body {
   background-color: #eee; }
