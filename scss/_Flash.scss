@@ -1,0 +1,14 @@
+.flash{
+	&:hover{
+		-webkit-animation: 0.7s flash 1;
+	}
+}
+
+@-webkit-keyframes flash{
+	50%{
+		opacity: 1;
+	}
+	25%,75%{
+		opacity: 0;
+	}
+}
