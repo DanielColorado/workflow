@@ -1,0 +1,10 @@
+.caja{
+	&:hover{
+		-webkit-animation: 5s cambia_color 1;
+	}
+}
+@-webkit-keyframes cambia_color{
+	50%{
+		background-color: tomato;
+	}
+}
