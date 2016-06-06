@@ -596,5 +596,16 @@ nav {
   50% {
     -webkit-transform: scale(1.1); } }
 
+.chicle:hover {
+  -webkit-animation: 0.7s chicle 1; }
+
+@-webkit-keyframes chicle {
+  30% {
+    -webkit-transform: scaleX(1.25) scaleY(0.75); }
+  50% {
+    -webkit-transform: scaleX(0.75) scaleY(1.25); }
+  60% {
+    -webkit-transform: scaleX(1.15) scaleY(0.85); } }
+
 body {
   background-color: #eee; }
