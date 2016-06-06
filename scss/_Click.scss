@@ -1,0 +1,14 @@
+.click{
+	&:hover{
+		-webkit-animation: 0.7s click 1;
+	}
+}
+
+@-webkit-keyframes click{
+	25%,75%{
+		-webkit-transform:scale(0.8);
+	}
+	50%{
+		-webkit-transform:scale(1.1);
+	}
+}
