@@ -1,0 +1,20 @@
+.vibrador{
+	&:hover{
+		-webkit-animation: 1s vibracion infinite;
+	}
+}
+@-webkit-keyframes vibracion{
+	5%,25%,45%,65%,85%{
+		transform:translateY(-10px);
+	}
+	10%,30%,50%,70%,90%{
+		transform:translateX(-10px);
+	}
+	15%,35%,55%,75%,95%{
+		transform:translateY(10px);
+	}
+	20%,40%,60%,80%{
+		transform:translateX(10px);
+	}
+	
+}
