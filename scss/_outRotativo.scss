@@ -1,0 +1,9 @@
+.outRotativo{
+	-webkit-animation: 1s outRotativo 1;
+}
+@-webkit-keyframes outRotativo{
+	100%{
+		opacity: 0;
+		transform:translateX(100%) rotate(260deg);
+	}
+}
